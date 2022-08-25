@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&family=Ruda:wght@400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+}
+.header-title {
+  width: calc(40vw - 13px);
+  height: 80px;
+  margin-left: 13px;
+  text-align: left;
+  display: inline-block;
+  font-family: "Ruda";
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 28px;
+  font-size: 24px;
+  /* or 0% */
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+.header-sections {
+  width: 60%;
+  height: 80px;
+  text-align: end;
+  display: inline-block;
+}
+.each-section {
+  display: inline-block;
+  font-family: "Ruda";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  /* or 0% */
+
+  color: white;
+  margin-right: 24px;
+}
+.my-link {
+  color: unset;
+  text-decoration: unset;
+}
+.each-section:hover {
+  border-bottom: 1px solid white;
+}
+.home-page {
+  margin-top: 80px;
+}
+.main-hero {
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgb(0, 0, 0, 1)
+    ),
+    url("../images/back.png");
+  background-size: cover;
+}
+.main-title {
+  width: 100%;
+  height: calc(50% - 20vh);
+  text-align: center;
+  padding-top: 20vh;
+}
+.main-hero-title {
+  width: 482px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 5px solid #f2c94c;
+  font-family: "Quattrocento";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  /* or 0% */
+
+  color: #ffffff;
+}
+.main-description {
+  margin-top: 22px;
+  font-family: "Ruda";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  /* or 160% */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  letter-spacing: 0.09em;
+  width: 745px;
+  height: 201px;
+  color: #ffffff;
+}
+.pizza-pic {
+  text-align: center;
+  width: 100%;
+  height: 50%;
+}
+.pizza {
+  height: 100%;
+}
+
+.about {
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-color: black;
+}
+.about-title,
+.about-picture {
+  padding-left: 140px;
+  padding-top: 115px;
+  width: calc(50% - 140px);
+  height: calc(100% - 115px);
+  display: inline-block;
+}
+.about-main-title {
+  font-family: "Quattrocento";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  align-items: center;
+  color: #ffffff;
+  width: calc(50vw - 280px);
+  border-bottom: #f2c94c 5px solid;
+}
+.about-desk {
+  width: 80%;
+  height: calc(100vh - 80px - 60px - 295px);
+  margin-top: 25px;
+  text-align: left;
+  font-family: "Ruda";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 0.09em;
+  color: #ffffff;
+}
+
+.about-pic {
+  height: calc(100% - 120px);
+}
+.read-more {
+  width: 130px;
+  height: 54px;
+  border: 2px solid #f2c94c;
+  background-color: black;
+  color: #f2c94c;
+  font-family: "Ruda";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 0px;
+  text-align: center;
+  transition: all 0.3s;
+}
+.read-more:hover {
+  transform: scale(0.9);
+}
+.find-section {
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-color: black;
+}
+.find-title {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: #f2c94c 5px solid;
+  height: 10%;
+  text-align: center;
+  font-family: "Quattrocento";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  align-items: center;
+  color: #ffffff;
+}
+.find-body {
+  width: 100%;
+  height: 90%;
+  display: flex;
+}
+.find-loc,
+.find-text {
+  padding: 110px;
+  width: calc(50% - 220px);
+  height: calc(100% - 220px);
+  display: inline-block;
+}
+.find-pic {
+  height: 100%;
+}
+.find-style {
+  height: 100%;
+  width: 100%;
+  font-family: "Ruda";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 0.09em;
+  color: #ffffff;
+}
+.m-menu {
+  background-color: black;
+  width: calc(100% - 240px);
+  height: calc(100vh - 280px);
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.m-menu-header {
+  width: 100%;
+  height: 40%;
+}
+.m-menu-title {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 5px #f2c94c solid;
+  font-family: "Quattrocento";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+.m-menu-des {
+  margin-top: 30px;
+  font-family: "Ruda";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.09em;
+  color: #ffffff;
+}
+.m-menu-pictures {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.just-pic {
+  padding: 23px;
+  width: calc(50% - 46px);
+  height: calc(100% - 46px);
+  text-align: center;
+}
+.m-menu-rasm {
+  height: 100%;
+}
+
+.menu-more {
+  margin-left: auto;
+  margin-right: auto;
+  width: 130px;
+  height: 54px;
+  border: 2px solid #f2c94c;
+  background-color: black;
+  color: #f2c94c;
+  font-family: "Ruda";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  text-align: center;
+  transition: all 0.3s;
+}
+.menu-more:hover {
+  transform: scale(0.9);
+}
+.more-menu {
+  width: 100%;
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-image: url("../images/back.png");
+  background-size: cover;
+}
+.footer-piz {
+  width: 100%;
+  height: 60%;
+  text-align: center;
+}
+.foot-piz {
+  height: 100%;
+}
+.social {
+  margin-left: 40%;
+  width: 20%;
+  text-align: center;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: space-between;
+}
+.my-icon {
+  vertical-align: middle;
+}
+.last-footer {
+  height: 80px;
+  background-color: black;
+  font-family: "Ruda";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  border: 1px solid #000000;
+}
+.menu-page {
+  background-color: black;
+  width: calc(100% - 200px);
+  padding: 100px;
+}
+.menu-header {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: "Quattrocento";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  border-bottom: 5px #f2c94c solid;
+}
+.filter {
+  display: flex;
+  justify-content: center;
+}
+.on-filter {
+  font-family: "Ruda";
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-right: 25px;
+  font-size: 28px;
+  text-align: center;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+.on-filter:hover {
+  border-bottom: 1px solid white;
+}
+.fods {
+  width: 100%;
+}
+.food-card {
+    margin-top: 50px;
+  display: inline-flex;
+  width: 50%;
+  justify-content: space-between;
+}
+.card-pic {
+  width: 40%;
+  display: inline-block;
+}
+.card-text {
+  width: 60%;
+  display: inline-block;
+}
+.card-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.card-food-name {
+  width: 70%;
+  font-family: "Ruda";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  color: #f2c94c;
+}
+.card-cost {
+  width: 30%;
+  font-family: "Ruda";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  color: #f2c94c;
+}
+.card-description {
+  font-family: "Ruda";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0.09em;
+  color: #ffffff;
+}
