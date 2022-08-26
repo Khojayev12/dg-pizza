@@ -51,7 +51,7 @@ body {
   text-decoration: unset;
 }
 .each-section:hover {
-  border-bottom: 1px solid white;
+  border-bottom: 2px solid white;
 }
 .home-page {
   margin-top: 80px;

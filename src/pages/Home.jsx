@@ -7,9 +7,10 @@ import loc3 from "../assets/images/p2.png";
 import insta from "../assets/images/insta.png";
 import face from "../assets/images/face.png";
 import wat from "../assets/images/wat.png";
+import { Link } from "react-router-dom";
 export default function Home() {
   return (
-    <div className="home-page" >
+    <div className="home-page">
       <div className="main-hero">
         <div className="main-title">
           <div className="main-hero-title">LA CARAVALA</div>
@@ -87,12 +88,13 @@ export default function Home() {
           </div>
         </div>
         <div className="more-menu">
-          {" "}
-          <button className="menu-more">MENU</button>
+          <Link to="/menu" className="my-link">
+            <button className="menu-more">MENU</button>
+          </Link>
         </div>
       </div>
 
-      <div className="footer"  id="contact" >
+      <div className="footer" id="contact">
         <div className="footer-piz">
           <img src={Back2} alt="" className="foot-piz" />
         </div>
@@ -128,7 +130,7 @@ export default function Home() {
       </div>
 
       <div className="last-footer">
-        <div style={{marginTop:"28px"}} >
+        <div style={{ marginTop: "28px" }}>
           TODOS LOS DERECHOS RESERVADOS © LA CARAVANA 2021 | DESIGN: MEZORA
         </div>
       </div>
