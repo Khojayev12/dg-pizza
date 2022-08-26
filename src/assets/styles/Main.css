@@ -12,9 +12,11 @@ body {
   top: 0px;
   left: 0px;
   background-color: black;
+  display: flex;
+  justify-content: space-between;
 }
 .header-title {
-  width: calc(40vw - 13px);
+  width: 174px;
   height: 80px;
   margin-left: 13px;
   text-align: left;
@@ -30,8 +32,8 @@ body {
   color: #ffffff;
 }
 .header-sections {
-  width: 60%;
   height: 80px;
+  margin-top: 28px;
   text-align: end;
   display: inline-block;
 }
